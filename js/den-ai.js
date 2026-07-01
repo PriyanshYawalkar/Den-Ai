@@ -142,12 +142,12 @@
       }
 
       var payload = {
-        firstName: clean((form.fname || {}).value),
-        lastName: clean((form.lname || {}).value),
-        email: clean((form.email || {}).value),
-        company: clean((form.company || {}).value),
-        subject: clean((form.subject || {}).value),
-        message: clean((form.message || {}).value),
+        firstName: escapeHtml(clean((form.fname || {}).value)),
+        lastName: escapeHtml(clean((form.lname || {}).value)),
+        email: escapeHtml(clean((form.email || {}).value)),
+        company: escapeHtml(clean((form.company || {}).value)),
+        subject: escapeHtml(clean((form.subject || {}).value)),
+        message: escapeHtml(clean((form.message || {}).value)),
       };
 
       if (
