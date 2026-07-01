@@ -22,11 +22,11 @@ Country:        India
 
 Priyanshu Gautam
 Co-Founder
-AI Engineering • Full Stack Development • Data Analytics
+AI Engineering • Designing and Frontend • Data
 
 Priyansh Yawalkar
 Co-Founder
-Cybersecurity • Infrastructure • Security Engineering
+Cybersecurity • Infrastructure • Backend • DevOps
 
 Mission:
 Building practical Artificial Intelligence solutions that help businesses
